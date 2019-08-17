@@ -1,11 +1,13 @@
 <script>
-	export let name;
+  export let name;
 </script>
 
 <style>
-	h1 {
-		color: purple;
-	}
+  h1 {
+    color: purple;
+  }
 </style>
+
+<link rel="stylesheet" href="/bootstrap.css" />
 
 <h1>Hello {name}!</h1>
