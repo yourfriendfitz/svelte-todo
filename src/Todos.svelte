@@ -1,5 +1,5 @@
 <script>
-  import TodoItem from "./TodoItem";
+  import TodoItem from "./TodoItem.svelte";
   let newTodoTitle = "";
   let currentFilter = "all";
   let nextId = 4;
@@ -79,7 +79,9 @@
   };
 </script>
 
-<link rel="stylesheet" href="public/bootstrap.css" />
+<style>
+  /* Custom Styling Could Be Here */
+</style>
 
 <div class="container">
   <img class="text-center" src={'/logo.png'} alt="logo" />
@@ -143,7 +145,3 @@
     </div>
   </div>
 </div>
-
-<style>
-/* Custom Styling Could Be Here */
-</style>

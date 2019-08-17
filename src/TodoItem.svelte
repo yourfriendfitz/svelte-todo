@@ -20,7 +20,6 @@
   };
 </script>
 
-<link rel="stylesheet" href="public/bootstrap.css" />
 <div class="jumbotron-sm">
   <div class="form-groupl" transition:fly={{ y: 20, duration: 300 }}>
     <input
