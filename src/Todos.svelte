@@ -79,6 +79,8 @@
   };
 </script>
 
+<link rel="stylesheet" href="public/bootstrap.css" />
+
 <div class="container">
   <img class="text-center" src={'/logo.png'} alt="logo" />
   <h2 class="text-center">Svelte Todo App</h2>
@@ -141,3 +143,7 @@
     </div>
   </div>
 </div>
+
+<style>
+/* Custom Styling Could Be Here */
+</style>
