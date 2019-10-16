@@ -1,2 +1,2 @@
 # svelte-todo
-A simple todo app with Svelte JS
+A simple application to demonstrate the features of the Svelte framework
